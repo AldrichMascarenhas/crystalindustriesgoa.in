@@ -1384,7 +1384,7 @@ select:focus {
   position: absolute;
   top: 0;
   left: 0;
-  width: 170px;
+  width: 150px;
   height: auto;
 }
 .single-team-member .img-holder img {
@@ -1444,7 +1444,8 @@ select:focus {
 }
 
 .single-team-member .text-holder {
-  padding-left: 20px;
+  padding-left: 5px;
+
 }
 .single-team-member .text-holder h5 {
   background: #fdc716 none repeat scroll 0 0;
@@ -1459,6 +1460,7 @@ select:focus {
   text-align: center;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   margin: 0 0 15px;
+
 }
 .single-team-member .text-holder h3 {
   margin-bottom: 6px;
@@ -1483,12 +1485,15 @@ select:focus {
   margin: 27px 0 0;
 }
 .single-team-member .text-holder ul li {
+
   
 }
 .single-team-member .text-holder ul li span {
   color: #01305e;
   display: inline-block;
   padding-right: 5px;
+      word-wrap: break-word;
+
 }
 
 .single-team-member:hover .overlay-box {
