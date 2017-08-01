@@ -1018,9 +1018,9 @@ select:focus {
 .about-us-area .content-column {
   background: #f7f7f7 none repeat scroll 0 0;
   float: right;
-  height: 527px;
+  height: 445px;
   overflow: hidden;
-  padding: 80px 15px 50px 65px;
+  padding: 50px 20px 50px 65px;
   position: relative;
   width: 50%;
 }
