@@ -1483,6 +1483,8 @@ select:focus {
 .single-team-member .text-holder ul {
   overflow: hidden;
   margin: 27px 0 0;
+    margin-bottom: : 20px;
+
 }
 .single-team-member .text-holder ul li {
 
