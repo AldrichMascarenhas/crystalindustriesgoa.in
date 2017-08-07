@@ -260,7 +260,7 @@
                         <span class="border"></span>
                     </div>
                     <h3>I would like to discuss:</h3>
-                    <form action="mailto:aldrichm69@gmail.com" class="contact-form" method="POST">
+                    <form  class="contact-form" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <select class="selectmenu">
@@ -289,7 +289,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <button class="thm-btn yellow-bg" type="submit">Your Message</button>    
+                                <button onclick="sendMail(); return false" class="thm-btn yellow-bg" type="submit">Send Message</button>    
                             </div>
                         </div>
                     </form>    
@@ -522,6 +522,7 @@
 <!-- thm custom script -->
 <script src="js/custom.js"></script>
 
+<script src="js/email.js"></script>
 
 
 
