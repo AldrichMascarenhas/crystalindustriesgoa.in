@@ -1,8 +1,6 @@
 function sendMail() {
-    var link = "mailto:me@example.com"
-             + "?cc=myCCaddress@example.com"
-             
-    ;
+    
+    emailjs.sendForm("sendgrid","email_template_crystal_industries","contact-form");
 
-    window.location.href = link;
+    
 }
