@@ -1,6 +1,9 @@
 function sendMail() {
     
-    emailjs.sendForm("sendgrid","email_template_crystal_industries","contact-form");
+    emailjs.sendForm("sendgrid","email_template_crystal_industries",contactusform);
+    alert("Successfully sent!");
+ 
 
-    alert ("Message sent!");
+
+
 }
